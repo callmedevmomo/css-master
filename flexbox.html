@@ -7,28 +7,42 @@
     <title>Flexbox</title>
     <style>
       /* flex-container(옵션 명령) && flex-items (옵션 적용) 직접 종속관계 */
+      /* .father {
+        display: flex;
+        flex-direction: column; <--> row 
+        justify-content: center;
+        align-items: flex-end;  --> 덩어리로 생각 
+        height: 1g00vh;
+        /* option 적용시 :width && height 충분한 간격 확보 필요 */
+      /*(fliex-direction:row --> main axis는 justify-content부분, cross axis 는 align-items부분) *column --> reverse 
+      } */
+
       .father {
         display: flex;
-        flex-direction: column; /* <--> row */
+        /* nowrap <--> wrap :: flex-wrap */
         justify-content: center;
-        align-items: flex-end; /* 덩어리로 생각 */
         height: 100vh;
-        /* option 적용시 :width && height 충분한 간격 확보 필요 */
-        /*(fliex-direction:row --> main axis는 justify-content부분, cross axis 는 align-items부분) *column --> reverse ** */
+        flex-wrap: wrap; /*row,column -reverse */
       }
       .box {
         width: 300px;
         height: 300px;
-        background-color: greenyellow;
+        background-color: black;
         border: 1px solid white;
+        display: flex; /* father && children type*/
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        color: white;
+        font-size: 50px;
       }
     </style>
   </head>
   <body>
     <div class="father">
-      <div class="box">!</div>
-      <div class="box">a</div>
-      <div class="box">77</div>
+      <div class="box">C</div>
+      <div class="box">S</div>
+      <div class="box">S!</div>
     </div>
   </body>
 </html>
