@@ -8,7 +8,7 @@
   - [x] Flex Direction
   - [x] Flex Wrap
   - [ ] Align Self
-    flex-container (x) --> flex-item directly
+    * flex-container (x) --> flex-item directly
  # CSS Grid
 
   - [ ] CSS Grid Basics ( Row, columns and gaps)
