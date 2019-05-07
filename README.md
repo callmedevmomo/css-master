@@ -10,11 +10,12 @@
   - [x] Align Self
     * flex-container (x) --> flex-item directly
  # CSS Grid
-
-  - [ ] CSS Grid Basics ( Row, columns and gaps)
-  - [ ] Auto columns, auto rows
-  - [ ] Template Areas
-  - [ ] fr unit, repeat
+   * grid-auto-flow : (default) row
+  - [x] CSS Grid Basics ( Row, columns and gaps)
+  - [x] Auto columns, auto rows
+  - [x] Template Areas
+  - [x] fr unit, repeat
+    * fraction
   - [ ] minmax, max-content, min-content
   - [ ] auto-fill, auto-fit
   - [ ] Justify Content, Align Content and Place Content
