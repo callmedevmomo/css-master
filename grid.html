@@ -8,7 +8,6 @@
     <style>
       .father {
         display: grid;
-        grid-auto-rows: 200px;
         grid-gap: 5px;
         /* grid-template-areas:
           "header header header"
@@ -16,7 +15,7 @@
           "content content sidebar"
           "footer footer footer"; */
         /* grid-template-columns: 2fr 1fr 2fr 1fr; */
-        grid-template-columns: repeat(3, 1fr) 4fr;
+        grid-template-columns: min-content repeat(3, 1fr);
       }
       .first {
         /* grid-area:header("x") */
@@ -35,7 +34,12 @@
   </head>
   <body>
     <div class="father">
-      <div class="first"></div>
+      <div class="first">
+        Filler text is text that shares some characteristics of a real written
+        text, but is random or otherwise generated. Filler text is text that
+        shares some characteristics of a real written text, but is random or
+        otherwise generated.
+      </div>
       <div class="second"></div>
       <div class="third"></div>
       <div class="fourth"></div>
