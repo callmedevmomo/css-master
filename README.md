@@ -22,7 +22,7 @@
   - [x] Justify Content, Align Content and Place Content
   - [x] Justify Items, Align Items and Place Items
     * Place Content&&Items => shorthand property
-  - [ ] Grid Column, Column Start and End
+  - [x] Grid Column, Column Start and End
   - [ ] Line Naming
   - [ ] Grid Row, Row Start and End
   - [ ] Grid Area
