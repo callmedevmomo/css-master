@@ -16,7 +16,13 @@
           "content content sidebar"
           "footer footer footer"; */
         /* grid-template-columns: 2fr 1fr 2fr 1fr; */
-        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        /* grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); */
+        grid-template-columns: repeat(5, 100px);
+        color: white;
+        height: 100vh;
+        place-content: center end;
+        /* justify-content: center; --> all of it together */
+        /* align-content: center;  --> grid container together*/
       }
       /* .first {
         /* grid-area:header("x")
@@ -26,24 +32,17 @@
         background-color: lightskyblue;
       }
       .box:nth-child(odd) {
-        background-color: blanchedalmond;
+        background-color: navy;
       }
     </style>
   </head>
   <body>
     <div class="father">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
     </div>
   </body>
 </html>
