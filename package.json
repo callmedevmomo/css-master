@@ -2,7 +2,9 @@
   "name": "css-master",
   "version": "1.0.0",
   "description": "CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
-  "dependencies": {},
+  "dependencies": {
+    "postcss-preset-env": "^6.6.0"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
@@ -17,5 +19,12 @@
   "homepage": "https://github.com/callmedevmomo/css-master#readme",
   "scripts": {
     "start": "parcel index.html"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
   }
 }
